@@ -1214,7 +1214,7 @@ if (typeof jQuery === 'undefined') {
     $(this.fixedContent).each(function (index, element) {
       var padding = $(element).data('padding-right')
       $(element).removeData('padding-right')
-      element.style.paddingRight = padding ? padding : ''
+        element.style.paddingRight = padding ? padding : ''
     })
   }
 
